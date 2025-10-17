@@ -1,7 +1,7 @@
-import adidas1 from "../src/assets/adidas1.png"
-import adidas2 from "../src/assets/adidas2.png"
-import adidas3 from "../src/assets/adidas3.png"
-import adidas4 from "../src/assets/adidas4.png"
+import adidas1 from "../assets/adidas1.png"
+import adidas2 from "../assets/adidas2.png"
+import adidas3 from "../assets/adidas3.png"
+import adidas4 from "../assets/adidas4.png"
 
 export default function NewDrops() {
 
