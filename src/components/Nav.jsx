@@ -6,7 +6,7 @@ import { FiMenu } from "react-icons/fi";
 
 export default function Nav() {
     return (
-        <nav className="side flex justify-between items-center py-4 px-4 mt-4 rounded-3xl bg-gray-200">
+        <nav className="side flex justify-between items-center py-4 px-4 mt-4 rounded-3xl bg-white">
             <span className="w-[300px] md:hidden">
                 <FiMenu />
             </span>

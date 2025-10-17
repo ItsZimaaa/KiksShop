@@ -11,7 +11,7 @@ export default function Home() {
 
 
             <div
-                className="w-full rounded-3xl p-6 md:h-[600px] h-[350px] bg-cover flex justify-between items-end relative overflow-hidden "
+                className="w-full rounded-3xl p-6 md:h-[600px] h-[350px] bg-cover bg-[center_top_50%] flex justify-between items-end relative overflow-hidden "
                 style={{ backgroundImage: `url(${bgHero})` }}>
 
                 <div className="flex flex-col gap-2">
@@ -24,10 +24,10 @@ export default function Home() {
                     <button className='button1'>Shop now</button>
                 </div>
 
-                <div className="flex flex-col gap-2">
+                {/* <div className="flex flex-col gap-2">
                     <img src={bgHero2} className="md:w-[160px] md:h-[160px] w-[60px] h-[60px] object-cover border-2 border-white rounded-2xl" />
                     <img src={bgHero3} className="md:w-[160px] md:h-[160px] w-[60px] h-[60px] object-cover border-2 border-white rounded-2xl" />
-                </div>
+                </div> */}
             </div>
         </section>
     )
