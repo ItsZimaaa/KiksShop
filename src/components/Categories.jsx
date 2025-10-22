@@ -8,8 +8,7 @@ export default function Categories() {
     const category = [
         {
             id: 1,
-            img: lifeStyleShoes,
-            tittle: "Lifestyle Shoes"
+            img: lifeStyleShoes, 
         },
 
         {
