@@ -26,7 +26,7 @@ export default function Categories() {
                     category.map((item) => (
                         <div key={item.id}>
 
-                            <div className="overflow-hidden relative">
+                            <div className="overflow-hidden relative grayscale-100 hover:grayscale-0">
                                 <img src={item.img} className="md:w-[690px] md:h-[600px] w-full h-[350px] object-cover" />
 
                                 <span className="absolute left-4 bottom-4 w-[450px] flex justify-between">

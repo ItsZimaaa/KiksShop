@@ -46,7 +46,7 @@ export default function NewDrops() {
                 {/* Card */}
                 <div className="gap-4 items-center mt-4 grid md:grid-cols-4 grid-cols-2">
                     {adidas.map((item) => (
-                        <div key={item.id} className="md:w-[320px] flex flex-col">
+                        <div key={item.id} className="md:w-[320px] flex flex-col grayscale-100 hover:grayscale-0">
                             <div className="flex overflow-hidden justify-center items-center bg-white rounded-3xl hover:shadow-2xl ease-in-out duration-300 relative">
                                 <span className="absolute top-2 left-2 bg-[#4A69E2] w-[60px] h-[30px] flex justify-center items-center text-white rounded-tl-3xl rounded-br-3xl">
                                     <h1>New</h1>

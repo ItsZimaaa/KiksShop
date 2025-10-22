@@ -11,7 +11,7 @@ export default function Home() {
 
 
             <div
-                className="w-full rounded-3xl p-6 md:h-[600px] h-[350px] bg-cover bg-[center_top_50%] flex justify-between items-end relative overflow-hidden "
+                className="w-full rounded-3xl p-6 md:h-[600px] h-[350px] bg-cover bg-[center_top_50%] flex justify-between items-end relative overflow-hidden grayscale-100 hover:grayscale-0"
                 style={{ backgroundImage: `url(${bgHero})` }}>
 
                 <div className="flex flex-col gap-2">

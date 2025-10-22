@@ -22,7 +22,7 @@ export default function Reviews() {
             try {
                 const response = await fetch("https://jsonplaceholder.typicode.com/comments");
                 const data = await response.json();
-                setComments(data.slice(0, 8));
+                setComments(data);
             } catch (Error) {
                 setError(Error.message);
             }
